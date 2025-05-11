@@ -28,14 +28,8 @@ function Home() {
     picture: user?.picture,
   };
 
-  const notifySuccess = () => {
-    console.log(dataRegister);
-    dispatch(postRegisterAuth0(dataRegister));
-  };
-
   useEffect(() => {
     if (isAuthenticated) {
-      notifySuccess();
     }
   }, [isAuthenticated]);
 

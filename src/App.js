@@ -32,8 +32,8 @@ import AddProductDiscount from "./Components/AddProductDiscount";
 import AllProductsWithDiscount from "./Components/AllProductsWithDiscount";
 import FavoriteProducts from "./Components/FavoriteProducts";
 import { useFakeAuth } from "./Redux/FakeAuthProvider";
-axios.defaults.baseURL = process.env.REACT_APP_BACKEND_BASE_URL;
-console.log("URL completa:", axios.defaults.baseURL + "/ruta/que/estas/llamando");
+ axios.defaults.baseURL = "http://localhost:4000";
+/* axios.defaults.baseURL = "http://localhost:4000"; */
 // http://localhost:4000
 //https://karma-backend-production.up.railway.app
 function App() {

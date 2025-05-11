@@ -2,7 +2,7 @@
 import { createContext, useContext } from "react";
 
 const fakeUser = {
-    sub: "auth0|1234567890abcdef",
+    sub: "Usuario|1",
     name: "Julio Castro",
     given_name: "Julio",
     family_name: "Castro",
